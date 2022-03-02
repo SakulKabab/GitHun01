@@ -34,8 +34,15 @@ namespace GitHun01
         private void button3_Click(object sender, EventArgs e)
         {
             int x = int.Parse(textBox1.Text), y = int.Parse(textBox2.Text);
-            int soucin = x - y;
+            int soucin = x * y;
             MessageBox.Show("Součin dvou čísel je: " + soucin);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox1.Text), y = int.Parse(textBox2.Text);
+            double podil = (double)x / y;
+            MessageBox.Show("Součin dvou čísel je: " + podil);
         }
     }
 }
