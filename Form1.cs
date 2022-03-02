@@ -23,5 +23,12 @@ namespace GitHun01
             int soucet = x + y;
             MessageBox.Show("Součet dvou čísel je: " + soucet);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox1.Text), y = int.Parse(textBox2.Text);
+            int rozdil = x - y;
+            MessageBox.Show("Součet dvou čísel je: " + rozdil);
+        }
     }
 }
